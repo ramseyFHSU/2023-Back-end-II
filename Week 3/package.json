@@ -1,0 +1,16 @@
+{
+  "name": "week-3",
+  "version": "1.0.0",
+  "description": "Sample application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Ramsey",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.1",
+    "validator": "^13.11.0"
+  }
+}

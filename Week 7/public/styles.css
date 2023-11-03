@@ -1,0 +1,45 @@
+/* Reset some default styles in browsers */
+body,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the navigation bar */
+nav {
+  background-color: #333;
+}
+
+/* Style the navigation links */
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  display: block;
+}
+
+/* Change color on hover */
+nav ul li a:hover {
+  background-color: #555;
+}
+
+/* Style the sections */
+section {
+  padding: 20px;
+  margin-top: 10px;
+}
+
+h1,
+h2,
+p {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,31 @@
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  margin-right: 0.5rem;
+}
+
+/* Custom navbar theme styles */
+.navbar-custom {
+  background-color: #000; /* Assuming black background */
+  color: #ff9900f6; /* Assuming gold text */
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+  color: #ff9900f6; /* Gold text for brand and links */
+}
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-link:focus {
+  color: #ff9900f6; /* Lighter gold on hover/focus */
+}
+
+/* Style for active or current navigation item */
+.navbar-custom .navbar-nav .nav-item.active .nav-link,
+.navbar-custom .navbar-nav .nav-item.active .nav-link:hover {
+  color: #fff; /* Bright gold or white for active link */
+  background-color: #ff9900f6; /* Darker gold for active link background */
+}
